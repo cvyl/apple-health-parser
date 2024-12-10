@@ -4,6 +4,10 @@
   "description": "A custom XML parser for Apple Health exports with visualization capabilities.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvyl/apple-health-parser.git"
+  },
   "bin": {
     "apple-health-xml-parser": "dist/index.js",
     "ahxp": "dist/index.js"
