@@ -1,0 +1,13 @@
+tests/
+src/
+sample.xml
+jest.config.js
+tsconfig.json
+package-lock.json
+node_modules/
+*.log
+.nyc_output/
+coverage/
+export.xml
+output/
+example/

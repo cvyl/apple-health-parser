@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HealthData locale="en_US">
+    <ExportDate value="2024-12-10 09:22:12 +0100"/>
+    <Me HKCharacteristicTypeIdentifierDateOfBirth="2000-03-10" 
+        HKCharacteristicTypeIdentifierBiologicalSex="HKBiologicalSexFemale" 
+        HKCharacteristicTypeIdentifierBloodType="HKBloodTypeNotSet" 
+        HKCharacteristicTypeIdentifierFitzpatrickSkinType="HKFitzpatrickSkinTypeNotSet" 
+        HKCharacteristicTypeIdentifierCardioFitnessMedicationsUse="None"/>
+    <Record type="HKQuantityTypeIdentifierStepCount" sourceName="Health" unit="count" startDate="2024-01-01 09:00:00 +0100" endDate="2024-01-01 09:00:00 +0100" value="1000"/>
+    <Record type="HKQuantityTypeIdentifierBodyMass" sourceName="Health" unit="kg" startDate="2024-01-01 09:00:00 +0100" endDate="2024-01-01 09:00:00 +0100" value="65"/>
+    <Record type="HKQuantityTypeIdentifierHeight" sourceName="Health" unit="cm" startDate="2024-01-01 09:00:00 +0100" endDate="2024-01-01 09:00:00 +0100" value="170"/>
+    <!-- Add more records as needed for other types -->
+</HealthData>

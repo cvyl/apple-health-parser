@@ -1,0 +1,42 @@
+{
+  "name": "apple-health-xml-parser",
+  "version": "1.0.9",
+  "description": "A custom XML parser for Apple Health exports with visualization capabilities.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "apple-health-xml-parser": "dist/index.js",
+    "ahxp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "start": "npm run build && node dist/index.js"
+  },
+  "keywords": [
+    "apple-health",
+    "xml-parser",
+    "health-data",
+    "chartjs",
+    "typescript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "chart.js": "^3.9.1",
+    "chartjs-node-canvas": "^4.1.6",
+    "commander": "^12.1.0",
+    "xml-stream": "^0.4.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.10.1",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  }
+}
