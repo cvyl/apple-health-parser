@@ -1,5 +1,5 @@
 {
-  "name": "apple-health-parser",
+  "name": "@cvyl/apple-health-parser",
   "version": "1.0.1",
   "description": "A custom XML parser for Apple Health exports with visualization capabilities.",
   "main": "dist/index.js",
