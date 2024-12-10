@@ -1,6 +1,6 @@
 {
-  "name": "apple-health-xml-parser",
-  "version": "1.0.9",
+  "name": "apple-health-parser",
+  "version": "1.0.1",
   "description": "A custom XML parser for Apple Health exports with visualization capabilities.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
