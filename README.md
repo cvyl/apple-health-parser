@@ -56,25 +56,25 @@ npx @cvyl/apple-health-parser <file_path> [types...] [--format json,png]
 1. Extract default data types and export as JSON and PNG:
 
    ```bash
-   npx apple-health-parser export.xml
+   npx @cvyl/apple-health-parser export.xml
    ```
 
 2. Extract specific data types (`height`, `bodyMass`, and `stepCount`):
 
    ```bash
-   npx apple-health-parser export.xml height bodyMass stepCount
+   npx @cvyl/apple-health-parser export.xml height bodyMass stepCount
    ```
 
 3. Extract data types and export only as JSON:
 
    ```bash
-   npx apple-health-parser export.xml height bodyMass --format=json
+   npx @cvyl/apple-health-parser export.xml height bodyMass --format=json
    ```
 
 4. Extract data types and export only as PNG charts:
 
    ```bash
-   npx apple-health-parser export.xml height bodyMass --format=png
+   npx @cvyl/apple-health-parser export.xml height bodyMass --format=png
    ```
 
 ---
