@@ -17,13 +17,13 @@ A custom TypeScript NPM package for parsing Apple Health XML exports and generat
 ### As a Dependency
 
 ```bash
-npm install apple-health-parser
+npm install @cvyl/apple-health-parser
 ```
 
 ### Or Run Directly with npx
 
 ```bash
-npx apple-health-parser <file_path> [types...] [--format json,png]
+npx @cvyl/apple-health-parser <file_path> [types...] [--format json,png]
 ```
 
 ---
@@ -86,7 +86,7 @@ Integrate the parser directly into your projects.
 #### Installation
 
 ```bash
-npm install apple-health-parser
+npm install @cvyl/apple-health-parser
 ```
 
 #### Example Usage
