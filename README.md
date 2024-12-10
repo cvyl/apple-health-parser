@@ -40,7 +40,7 @@ The package can be run directly using `npx` or `npm start`.
 #### Command Syntax
 
 ```bash
-npx apple-health-parser <file_path> [types...] [--format json,png]
+npx @cvyl/apple-health-parser <file_path> [types...] [--format json,png]
 ```
 
 #### Parameters
