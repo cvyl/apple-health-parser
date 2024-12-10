@@ -33,7 +33,6 @@
     "canvas": "^2.11.2",
     "chart.js": "^3.9.1",
     "chartjs-node-canvas": "^4.1.6",
-    "commander": "^12.1.0",
     "xml-stream": "^0.4.5"
   },
   "devDependencies": {
